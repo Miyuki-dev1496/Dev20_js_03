@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+html{
+    font-size: 90.0%;/* 16px x 62.5% = 10px*/
+    font-family: "Hiragino Kaku Gothic ProN"
+}
+
+.text-center{
+    text-align : center;
+}
+
+.container {
+    width:100px;
+    max-width : 1170px;
+    padding : 0 15px 0 15px;
+    margin : auto;
+}
+
+.header_wrapper {
+    background-color: rgb(202, 199, 199);
+}
+
+.header {
+    /* float : left; */
+    display : flex;
+    width : 30%;
+    padding: 10px 0 0 10px;
+}
+
+.img {
+   
+}
+
+.header p {
+    margin-left : 5px;
+}
+
+header h1{
+    font-family:"Meiryo UI";
+    font-size: 2.0rem;
+    color: rgb(236, 83, 129);
+    border-bottom : 0.7px solid  rgb(180, 182, 196);
+    padding-bottom : 40px;
+    
+}
+
+.column_wrapper {
+    width : 400px;
+  
+}
+
+.column {
+    width : 400px;
+    margin : auto;
+}
+
+#hotel {
+    width : 400px;
+}
+
+#link {
+    width : 400px;
+}
+
+#comment {
+    width : 400px;
+}
+
+#rate {
+    width : 400px;
+}
+
+.output_wrapper {
+    margin-top : 70px;
+}
+
+#mapid { height: 180px; }
+
+#output {
+    width : 100%;
+    margin : auto;
+    display : flex;
+   
+}
+
+#output p {
+    width : 400px;
+    margin : 15px 5px 5px 5px;
+    background-color: rgb(250, 240, 228);
+    letter-spacing: 1px;
+    box-sizing: inherit;
+}
+ul {
+    padding-inline-start: 0px;
+    list-style-type:none;
+}
+
+@media(max-width:680px){
+    #output {
+        width:50%;
+    }
+}
+
+
